@@ -45,6 +45,7 @@ a {
 
 button {
   cursor: pointer;
+  margin-left: 4px;
 }
 
 img {
@@ -59,5 +60,9 @@ export const AppWrap = styled.div`
   flex-direction: column;
   gap: 8px;
   margin: 0 auto;
+  margin-top: 24px;
   padding: 16px;
+  width: 600px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 `;

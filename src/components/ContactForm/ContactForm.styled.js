@@ -3,6 +3,7 @@ import { Form, Field, ErrorMessage } from 'formik';
 
 export const FormStyle = styled(Form)`
   display: flex;
+  flex-direction: column;
   gap: 8px;
 `;
 
@@ -11,8 +12,8 @@ export const FormField = styled(Field)`
 `;
 
 export const FormButton = styled.button`
-  margin-left: 24px;
   height: 24px;
+  width: 144px;
 `;
 
 export const FormError = styled(ErrorMessage)`
